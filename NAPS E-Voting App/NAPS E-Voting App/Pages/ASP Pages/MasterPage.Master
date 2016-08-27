@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="NAPS_E_Voting_App.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    </head>
+<body style="font-family:'Segoe Print';font-size:larger">
+    <form id="form1" runat="server">
+    <div id="container" style="width:100%;">
+        <div id="banner">
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Resources/PhysicsBanner.JPG" Width="100%" />
+        </div>
+    
+        <div id="header" style="background-color:limegreen;text-align:center">
+            <h1>Welcome to the NAPS E-Voting Platform<img alt="" src="../Resources/NAPS%20logo%2064%20x%2064.bmp" /></h1>
+        </div>
+                
+        <div id="instructions" style="text-align:center">
+            <asp:ContentPlaceHolder ID="InstructionsPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <div id="body" style="text-align:center">
+            <script src="jquery.js"></script>
+            <asp:ContentPlaceHolder id="BodyPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+        </div>
+
+        <div id="footer" style="background-color:lawngreen;text-align:center;">
+            &copy Osmond & Tolu
+        </div>
+    
+    </div>
+    </form>
+</body>
+</html>

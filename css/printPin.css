@@ -1,0 +1,14 @@
+table td{
+	 text-align: justify;
+	 font-weight: 10px;
+	 padding: 5px;
+}
+
+.heading td{
+	 font-weight: 50px;
+	 color: rgb(180, 186,33);
+	 padding: 10px;
+	 text-align: center;
+}
+
+.center{text-align: center;}

@@ -1,0 +1,47 @@
+.aspirantBox{
+	 /*overflow-x: scroll;*/
+	 white-space: nowrap;
+}
+
+.aspirant{
+	 display: inline-block;
+	 width: 30%;
+	 text-align: justify;
+}
+
+.aspirant p{
+	 width: 100%;
+}
+.aspirant img{
+	 
+}
+.vote_icon{
+	 background: url(../images/vote_thumbs.png) no-repeat right;
+	 padding: 15px;
+}
+.voted_icon{
+	 background: url(../images/voted_thumbs.png) no-repeat right;
+	 padding: 15px;
+}
+
+.vote_icon a,.voted_icon a{
+	 text-decoration: none;
+}
+.vote_icon,.voted_icon {
+	 cursor: pointer;
+}
+
+#verify{
+	 width: 50%; 
+	 padding: 10px;
+	 text-align: center;
+	 font-size: 2em;
+	 margin-left: 25%
+}
+
+ul {margin:0; padding:0;list-style-image:none;}
+li {padding:0px 0 5px 12px; line-height:25px; background:url(../images/marker-1.gif) 0 11px no-repeat;}
+li  span.tag{width: 200px; margin: 0 0 0 10px; float: left; padding: 2px;}
+.clear{clear: both;}
+.hide{display: none;}
+.red{color: red;}

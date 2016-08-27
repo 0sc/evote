@@ -1,0 +1,20 @@
+﻿/*div[id="banner"] {
+    height: 100px; width:100%;
+}*/
+
+header {
+    font-size:xx-large;
+    text-align:center;
+    background-color:orange;
+	margin-top: -5px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+footer {
+    text-align: right;
+	padding: 10px;
+	bottom: 0;
+	font-size: 20px;
+	position: fixed;
+}

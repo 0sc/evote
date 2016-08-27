@@ -1,0 +1,42 @@
+﻿/*div[id="banner"] {
+    height: 100px; width:100%;
+}*/
+
+header {
+    font-size:xx-large;
+    text-align:center;
+    background-color:orange;
+}
+
+body {
+    text-align:center;
+    font-family: 'Segoe Print';
+    font-size: larger;
+}
+
+table {
+    width: 100%;
+}
+
+input[type=text] {
+    width:100%;
+}
+
+input[type=password] {
+    width:100%;
+}
+
+fieldset {
+    height:450px;
+}
+
+input[type=radio] {
+    width: 100px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: orange;
+    font-size: x-large;
+}

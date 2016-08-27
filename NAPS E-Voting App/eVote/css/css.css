@@ -1,0 +1,82 @@
+body { 
+	 font-family: Helvetica, Arial, sans-serif; 
+	 font-size: 13px; 
+	 background: url(../images/BG.jpg);
+	 height: 100%;
+	 position: relative;
+	 color: #888;
+	 font-size: 13px;
+	 line-height: 20px;
+	 min-width: 998px;
+}
+
+div.success{
+	 border-color: rgb(162, 210, 70);
+	 background-image: url("../images/s_success.png");
+	 background-repeat: no-repeat;
+	 background-position: 5px 50%;
+}
+
+div.success, div.error{
+	 margin: 0.5em 0px 1.3em;
+	 border: 1px solid;
+	 background-repeat: no-repeat;
+	 background-position: 10px 50%;
+	 padding: 10px 10px 10px 25px;
+	 border-radius: 5px 5px 5px 5px;
+	 box-shadow: 0px 1px 1px rgb(255, 255, 255) inset;
+	 text-align: center;
+}
+
+.success{
+	 color: rgb(0,0,0);
+	 background-color: rgb(235,248,164);
+}
+
+div.error{
+	 background-image: url('../images/s_error.png');
+	 border-color:rgb(81,81,81);
+	 background-repeat: no-repeat;
+	 background-position: 5px 50%;
+}
+
+.error{
+	 border: 1px solid maroon !important;
+	 color: rgb(0,0,0);
+	 background: none repeat scroll 0% 0% pink;
+}
+
+p.button{text-align: right;}
+.button{
+	 display: inline-block;
+	 font-weight: bold;
+	 cursor: pointer;
+/*	 background: rgb(247, 248, 241); */
+	 background: #b4ba21;
+	 padding: 2px 6px;
+	 /*color: rgb(29, 162, 193);*/
+	 color: white;
+	 margin-left: 10px;
+	 min-width: 10%;
+	 text-decoration: none;
+	 -webkit-border-radius: 4px;
+	 -moz-border-radius: 4px;
+	 border-radius: 4px;
+	 border: 1px solid rgb(203, 213, 214);
+	 -webkit-transition: all 0.4s linear;
+	 -moz-transition: all 0.4s  linear;
+	 -o-transition: all 0.4s linear;
+	 -ms-transition: all 0.4s  linear;
+	 transition: all 0.4s  linear;
+}
+a.button{
+	 color: white !important;
+	 text-decoration: none;
+}
+
+.wrong:hover{background: rgb(107, 10, 10) !important;}
+
+.button:hover{
+	 /*background: rgb(74, 179, 198);*/
+	 background: green;
+}
