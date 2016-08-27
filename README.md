@@ -1,0 +1,2 @@
+# evote
+sudo evote app
